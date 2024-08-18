@@ -68,5 +68,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Chopda, Jalgaon Maharashtra",
   phoneNo: "+91 7498525542 ",
-  email: "rushdeveloper@07gmail.com",
+  email: "rushdeveloper07@gmail.com",
 };
