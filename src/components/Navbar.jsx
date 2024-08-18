@@ -1,5 +1,4 @@
 import React from "react";
-import Logo2 from "../assets/Logo2.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
@@ -9,8 +8,14 @@ const Navbar = () => {
   return (
     <div>
       <nav className="mb-20 flex justify-between items-center py-6">
-        <div className="flex flex-shrink-0 items-center">
-          <img className="mx-2" src={Logo2} alt="logo" />
+        <div className="">
+          <h1 className="text-2xl">
+            <b>Rushwan</b>
+            <b className="" style={{ color: "#83B4FF" }}>
+              {" "}
+              Syed
+            </b>
+          </h1>
         </div>
         <div className=" flex justify-center items-center text-2xl gap-4">
           <a href="https://www.linkedin.com/in/sayed-rushwan/">
