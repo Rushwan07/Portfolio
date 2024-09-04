@@ -3,11 +3,8 @@ import Workoutimg from "../assets/projects/workout-app.webp";
 import ProsizeByRushi from "../assets/projects/ProsizeByRushi.png"
 import Moneyimg from "../assets/projects/Money-app.jpg"
 
-export const HERO_CONTENT = `Aspiring software developer proficient in C, C++, Python, Django, React, and Java,
-with a keen aptitude for web development technologies and database management
-using SQL. Eager to apply theoretical knowledge to real-world projects and expand
-skill set through hands-on experience. Seeking an internship opportunity to learn,
-contribute, and grow in a dynamic tech environment.`;
+export const HERO_CONTENT = `
+I'm a software developer skilled in C, C++, Python, Django, React, and Java, with a strong interest in web development and database management using SQL. I enjoy solving complex problems and building efficient, scalable solutions. I'm motivated to collaborate on innovative projects that make a real impact.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -37,7 +34,7 @@ export const PROJECTS = [
     image: ProsizeByRushi,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["React", "Node.js", "MongoDB", "Express.js"],
   },
   {
     title: "Read Success Stories",
@@ -53,7 +50,7 @@ export const PROJECTS = [
     image: Workoutimg,
     description:
       "The MERN Workout Tracker streamlines fitness tracking with easy logging, customization, and secure access—your ultimate fitness companion.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["React", "Node.js", "MongoDB", "Express.js"],
   },
   {
     title: "Easy-Pay",
