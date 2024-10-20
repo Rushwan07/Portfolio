@@ -66,4 +66,5 @@ export const CONTACT = {
   address: "Chopda, Jalgaon Maharashtra",
   phoneNo: "+91 7498525542 ",
   email: "rushdeveloper07@gmail.com",
+  Key: "c805f8c1-0ebd-4300-a440-9ecd6942e7d4"
 };
