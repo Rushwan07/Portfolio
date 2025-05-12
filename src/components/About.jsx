@@ -1,4 +1,4 @@
-import RushProfile from "../assets/RushProfile.jpg";
+import RushProfile from "../assets/RushPro.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
@@ -16,7 +16,7 @@ const About = () => {
           transition={{ duration: 0.5, delay:1}}
           className="w-full lg:w-1/2 lg:p-8"
         >
-          <div className="flex items-center justify-center">
+          <div className="flex rounded-2xl items-center justify-center h-[500px] overflow-hidden">
             <img className="rounded-2xl" src={RushProfile} alt="about" />
           </div>
         </motion.div>
