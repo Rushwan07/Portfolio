@@ -10,7 +10,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "2024 - 2025",
     role: "Fullstack Developer",
     company: "AbleLYF.",
     description: `Designed and developed user interfaces for web applications using MERN Stack. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
