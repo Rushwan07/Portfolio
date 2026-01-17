@@ -1,6 +1,7 @@
 import project2 from "../assets/projects/project-2.jpg";
 import Workoutimg from "../assets/projects/workout-app.webp";
 import ProsizeByRushi from "../assets/projects/ProsizeByRushi.png"
+import ChitChat from "../assets/projects/Chitchat.png"
 import Moneyimg from "../assets/projects/Money-app.jpg"
 
 export const HERO_CONTENT = `
@@ -28,6 +29,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Chit Chat - A Real time Messaging Application",
+    link: "https://real-time-chatting-app-eta.vercel.app/",
+    image: ChitChat,
+    description:
+      "Created a real time messaging application using MERN stack and Socket.IO that utlizes web sockets in the backend. It supports individual chat functionalities along with full user authentication and profile management. It has real time typing indicators to show when a user is typing",
+    technologies: ["React", "Node.js", "MongoDB", "Express.js", "Socket.IO"],
+  },
   {
     title: "ProsizeByRushi",
     link: "https://github.com/Rushwan07/ProsizeByRushi",
