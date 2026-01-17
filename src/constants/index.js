@@ -1,7 +1,7 @@
 import project2 from "../assets/projects/project-2.jpg";
 import Workoutimg from "../assets/projects/workout-app.webp";
 import ProsizeByRushi from "../assets/projects/ProsizeByRushi.png"
-import ChitChat from "../assets/projects/Chitchat.png"
+import ChitChat from "../assets/projects/ChitChat.png"
 import Moneyimg from "../assets/projects/Money-app.jpg"
 
 export const HERO_CONTENT = `
